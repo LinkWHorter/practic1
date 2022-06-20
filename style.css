@@ -29,5 +29,5 @@ body {
    #footer { 
     clear: both; /* Отменяем действие float */
     padding: 5px; /* Отступы вокруг текста */
-    background: blue; /* Цвет фона подвала */
+    background: green; /* Цвет фона подвала */
    }
