@@ -10,8 +10,7 @@ body {
     background: yellow; /* Цвет колонок */
    }
    #header { 
-    font-size: 2.2em; /* Размер текста */
-    text-align: center; /* Выравнивание по центру */
+    font-size: 2.2em; /* Размер текста */ /*     text-align: center; Выравнивание по центру */
     padding: 5px; /* Отступы вокруг текста */
     background: green; /* Цвет фона шапки */
    }
