@@ -1,16 +1,34 @@
-#container {
- width: 900px; /* Ширина макета */
- margin: 0 auto; /* Выравнивание по центру */
-}
-#nav {
- width: 200px; /* Ширина левой колонки */
- float: left;
-}
-#aside {
- width: 300px; /* Ширина правой колонки */
- float: right;
-}
-#content {
- margin: 0 300px 0 200px; /* Отступ на ширину левой и правой колонки*/
-}
-
+body {
+    font: 0.8em Arial, Helvetica, sans-serif; /* Шрифт на веб-странице */
+    background: #D7E1F2; /* Цвет фона */
+    color: white; /* Цвет текста */
+   }
+   a { color: #008BCE; /* Цвет ссылок */ }
+   #container {
+    width: 500px; /* Ширина макета */
+    margin: 0 auto; /* Выравниваем по центру */
+    background: yellow; /* Цвет колонок */
+   }
+   #header { 
+    font-size: 2.2em; /* Размер текста */
+    text-align: center; /* Выравнивание по центру */
+    padding: 5px; /* Отступы вокруг текста */
+    background: green; /* Цвет фона шапки */
+   }
+   #nav, #aside {
+    float: left; width: 110px; padding: 5px;
+   }
+   #content {
+    background: blue;
+    margin: 0 120px; /* Ширина колонок */
+    padding: 10px;
+   }
+   #aside {
+    float: right; color: #000;
+   }
+   h2 { margin: 0 0 1em; }
+   #footer { 
+    clear: both; /* Отменяем действие float */
+    padding: 5px; /* Отступы вокруг текста */
+    background: blue; /* Цвет фона подвала */
+   }
