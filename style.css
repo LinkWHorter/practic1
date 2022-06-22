@@ -10,6 +10,7 @@ body {
     margin: 0 auto; /* Выравниваем по центру */
     background: lime; /* Цвет колонок */
    }
+   li { color: gray; }
    #header { 
     font-size: 2.2em; /* Размер текста */     
     text-align: center; /* Выравнивание по центру */
