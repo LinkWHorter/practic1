@@ -35,3 +35,4 @@ body {
     padding: 5px; /* Отступы вокруг текста */
     background: green; /* Цвет фона подвала */
    }
+   #image { margin: 10px; } 
