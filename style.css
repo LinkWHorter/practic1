@@ -1,13 +1,13 @@
 body {
     font: 0.8em Arial, Helvetica, sans-serif; /* Шрифт на веб-странице */
-    background: #D7E1F2; /* Цвет фона */
+    background: gray; /* Цвет фона */
     color: white; /* Цвет текста */
    }
-   a { color: #008BCE; /* Цвет ссылок */ }
+   a { color: yellow; /* Цвет ссылок */ }
    #container {
-    width: 700px; /* Ширина макета */
+    width: 800px; /* Ширина макета */
     margin: 0 auto; /* Выравниваем по центру */
-    background: yellow; /* Цвет колонок */
+    background: lime; /* Цвет колонок */
    }
    #header { 
     font-size: 2.2em; /* Размер текста */ /*     text-align: center; Выравнивание по центру */
@@ -15,10 +15,10 @@ body {
     background: green; /* Цвет фона шапки */
    }
    #nav, #aside {
-    float: left; width: 110px; padding: 5px;
+    float: left; width: 120px; padding: 5px;
    }
    #content {
-    background: blue;
+    background: yellowgreen;
     margin: 0 120px; /* Ширина колонок */
     padding: 10px;
    }
