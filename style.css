@@ -22,7 +22,7 @@ body {
    }
    #content {
     background: yellowgreen;
-    margin: 0 120px; /* Ширина колонок */
+    margin: 0 95px; /* Ширина колонок */
     padding: 10px;
    }
    #aside {
