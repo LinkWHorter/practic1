@@ -3,7 +3,8 @@ body {
     background: gray; /* Цвет фона */
     color: white; /* Цвет текста */
    }
-   a { color: yellow; /* Цвет ссылок */ }
+   a { color: darkgreen; /* Цвет ссылок */
+    font-weight: bold; }
    #container {
     width: 800px; /* Ширина макета */
     margin: 0 auto; /* Выравниваем по центру */
@@ -24,6 +25,7 @@ body {
     padding: 10px;
    }
    #aside {
+    color: darkgreen;
     float: right; color: #000;
    }
    h2 { margin: 0 0 1em; }
