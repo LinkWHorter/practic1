@@ -17,7 +17,7 @@ body {
     background: green; /* Цвет фона шапки */
    }
    #nav, #aside {
-    float: left; width: 150px; padding: 5px;
+    float: left; width: 95px; padding: 5px;
    }
    #content {
     background: yellowgreen;
