@@ -12,10 +12,6 @@ html, body {
 }
 
 body {
-    font: 0.8em Arial, Helvetica, sans-serif; /* Шрифт на веб-странице */
-    background: gray; /* Цвет фона */
-    color: white; /* Цвет текста */
-  }
     font-family: "Roboto", sans-serif; /* Шрифт на веб-странице */
 }
 
@@ -44,8 +40,6 @@ a {
 }
 
 #container {
-    width: 800px; /* Ширина макета */
-    margin: 0 auto; /* Выравниваем по центру */
     background: lime; /* Цвет колонок */
     width: 100%; height: 100%;
     display: flex;
@@ -61,10 +55,6 @@ a {
 li { color: gray; }
 
 #header { 
-    font-size: 2.2em; /* Размер текста */     
-    text-align: center; /* Выравнивание по центру */
-    vertical-align: middle;
-    padding: 5px; /* Отступы вокруг текста */
     font-size: 1.6em; /* Размер текста */     
     background: green; /* Цвет фона шапки */
 }
@@ -83,7 +73,6 @@ li { color: gray; }
 }
 
 #nav, #aside {
-    float: left; width: 95px; padding: 5px; height: 100%;
     width: 100px;
     padding: 15px 15px 0 0;
     height: 100%;
@@ -98,9 +87,6 @@ li { color: gray; }
 
 #content {
     background: yellowgreen;
-    margin: 0 95px; /* Ширина колонок */
-    padding: 10px;
-    height: 100%;
     font-size: .6rem;
     padding: 15px 10px 15px 45px;
 }
@@ -114,13 +100,10 @@ li { color: gray; }
 h2 { margin: 0 0 1em; }
 
 #footer {
-    clear: both; /* Отменяем действие float */
-    padding: 5px; /* Отступы вокруг текста */
     color: white;
     padding: 35px 0; /* Отступы вокруг текста */
     background: green; /* Цвет фона подвала */
 }
-#image { margin: 10px; } 
 
 
 /* Adaptive layout for mobile devices, etc. */
