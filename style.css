@@ -18,12 +18,13 @@ body {
     background: green; /* Цвет фона шапки */
    }
    #nav, #aside {
-    float: left; width: 95px; padding: 5px;
+    float: left; width: 95px; padding: 5px; height: 100%;
    }
    #content {
     background: yellowgreen;
     margin: 0 95px; /* Ширина колонок */
     padding: 10px;
+    height: 100%
    }
    #aside {
     color: darkgreen;
