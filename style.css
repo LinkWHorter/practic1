@@ -1,0 +1,175 @@
+h1, p {
+	font-family: Georgia;
+}
+
+h1 {
+	color: #366F1B;
+}
+
+p {
+	color: #fff;
+}
+
+body {
+	background-color: #fff;
+	margin-right: 10px;
+}
+
+a {
+	color: #B0DA6F;
+}
+
+a:visited {
+	color: #B0DA6F;
+}
+
+a:active {
+	color: #B5DA7B;
+}
+
+.img {
+	margin-left: 50px;
+	margin-top: 10px;
+	margin-bottom: 5px;
+}
+
+.imgb {
+	margin-left: 20px;
+	margin-right: 10px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	background: #587b23;
+	height: 370;
+	width: 550;
+}
+
+.img1 {
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.img2 {
+	margin-top: 50px;
+	margin-left: 25%;
+	margin-right: 25%;
+	height: 50%;
+	width: 50%;
+}
+
+.centr {
+	margin-left: 25%;
+	margin-right: 25%;
+	margin-top: 50px;
+}
+
+.bold {
+	color: darkgreen;
+}
+
+.menu {
+	background-color: #92bd52;
+	margin-top: -10px;
+	margin-left: -10px;
+	margin-right: -10px;
+}
+
+.table2 {
+	background: yellowgreen;
+}
+
+.osn{
+	margin-left: -10px;
+	margin-right: -10px;
+}
+
+.footer {
+	background-color: #587b23;
+	margin-top: -20px;
+	margin-right: -10px;
+	margin-left: -10px;
+}
+
+.name1_1 {
+	padding-top: 30px;
+}
+
+.name2 {
+	text-align: center;
+	color: #252525;
+	font-size: 120%;
+	margin-top: 30px;
+}
+
+.name3 {
+	text-align: center;
+	margin-top: 30px;
+}
+
+.text2, .text3 {
+	margin-top: 30px;
+	margin-left: 15px;
+	margin-right: 15px;
+}
+
+a:hover {
+	color: white;
+}
+
+#right1:hover {
+	background-color: #587b23;
+}
+
+.text3 a {
+	color: #252525;
+}
+.text3 a:hover {
+	color: white;
+}
+
+.text3 {
+	color: #252525;
+	line-height: 2;
+}
+
+.text4 {
+	line-height: 1.5;
+	margin-top: 30px;
+	margin-left: 15px;
+	margin-right: 15px;
+}
+
+.text5 {
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.text6 {
+	text-align: left;
+	margin-left: 15px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+TD.logo {
+	width: 12%;
+}
+
+TD.left {
+	vertical-align: top;
+	width: 15%;
+	background-color: #6d9530;
+}
+
+TD.mid {
+	vertical-align: top;
+	width: 60%;
+	height: 500px;
+}
+
+TD.right {
+	background-color: #6d9530;
+	vertical-align: top;
+}
